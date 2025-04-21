@@ -11,9 +11,9 @@ const int dallas = 4;   // PIN untuk sensor Dallas DS18B20
 OneWire oneWire(dallas);
 DallasTemperature sensors(&oneWire);
 
-#define BLYNK_TEMPLATE_ID "TMPL6QCrULozi"
-#define BLYNK_TEMPLATE_NAME "Projek Coba Coba"
-#define BLYNK_AUTH_TOKEN "Gq08VKO8VNHrUMROialSfuXcLuuKHNpe"
+#define BLYNK_TEMPLATE_ID "Template ID kalian"
+#define BLYNK_TEMPLATE_NAME "Template Name kalian"
+#define BLYNK_AUTH_TOKEN "Token Kalian"
 
 void setup() {
   // Menyalakan WiFi untuk konfigurasi ssid
